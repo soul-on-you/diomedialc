@@ -25,16 +25,16 @@ export default (() => {
 					<StackItem width="75%" lg-width="100%" margin="0 0 0 20px">
 						<Override slot="StackItemContent" flex-direction="column" />
 						<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
-							Excellence in everything
+							На шаг ближе к будующему
 						</Text>
 						<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
-							Striving for perfection in everything we do. Unparalleled service for everyone.
+							Мы делаем все чтобы человечество смогло достигнуть совершенства
 						</Text>
 					</StackItem>
 				</Stack>
 				<Box text-align="center" margin="96px 0 0 0">
 					<Text margin="8px 0" text-transform="uppercase">
-						Who we are
+						Кто же мы?
 					</Text>
 					<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
 				</Box>
@@ -67,7 +67,7 @@ export default (() => {
 					color="--darkL2"
 					lg-width="100%"
 				>
-					Новейший человек, рождает новеншний подход.
+					Новейший человек, рождает новейший подход.
 				</Text>
 			</Box>
 			<Box

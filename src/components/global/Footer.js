@@ -26,9 +26,16 @@ export default () => {
           <Text margin="0px 0px 5px 0px" color="#949494">
             125319, Россия, Москва, Ленинградский проспект, 64
           </Text>
-          <Text margin="0px 0px 0px 0px" color="#949494">
+          <Link
+            href="tel:12345678"
+            text-decoration-line="initial"
+            color="--light"
+            font="--lead"
+            margin="0px 0px 0px 0px"
+            color="#949494"
+          >
             +7 (985) 939-1998
-          </Text>
+          </Link>
         </Box>
         <Box
           min-width="100px"

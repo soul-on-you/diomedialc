@@ -1,5 +1,5 @@
 {
-    "name": "quarkly-export",
+    "name": "diomedialCnet",
     "dependencies": {
         "@quarkly/atomize": "1.0.20",
         "@quarkly/community-kit": "0.0.53",

@@ -1,7 +1,7 @@
 import React from "react";
 import theme from "theme";
 import { Theme, Link, Image, Text, Section, Box, Span, Input, Button, Icon, } from "@quarkly/widgets";
-// import { Sugar } from 'react-preloaders';
+// import { Sugar } from 'react-preloaders'; //<Sugar/>
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, SocialMedia, Formspree } from "@quarkly/components";
 import {
@@ -68,7 +68,7 @@ export default () => {
               md-padding="0px 0px 40px 0px"
             >
               Цель нашего проекта заключается в налаживании отношений с
-              мировыфми компаниями для дальнейшего сотрудничества. Это пойдет на
+              мировыми компаниями для дальнейшего сотрудничества. Это пойдет на
               благо общества и экономики, и конечного потребителя.
             </Text>
             <Text margin="32px 0px 0px 0px" color="--light">
@@ -371,14 +371,14 @@ export default () => {
               системах.
             </Text>
             <Link
-              href="#"
+              href="solutions"
               text-decoration-line="initial"
               color="--primary"
               padding="5px 35px 5px 0px"
               background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
               font="--lead"
             >
-              Learn more
+              Узнать больше
             </Link>
           </Box>
           <Box
@@ -412,14 +412,14 @@ export default () => {
               сделать организацию производства более эффективной.
             </Text>
             <Link
-              href="#"
+              href="solutions"
               text-decoration-line="initial"
               color="--primary"
               padding="5px 35px 5px 0px"
               background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
               font="--lead"
             >
-              Learn more
+              Узнать больше
             </Link>
           </Box>
         </Box>
@@ -500,8 +500,8 @@ export default () => {
                 display="flex"
               >
                 Откройте перспективы перевода отдела проектировщиков на
-                удаленную работу. Получайте понятную статистику о проделанной
-                работы и текущим результатам.
+                удаленную работу. Получайте понятную статистику по проделанной
+                работе и текущим результатам.
               </Text>
             </Box>
             <Box
@@ -558,7 +558,7 @@ export default () => {
             </Text>
           </Box>
           <Link
-            href="#"
+            href="products"
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
@@ -599,7 +599,7 @@ export default () => {
             </Text>
           </Box>
           <Link
-            href="#"
+            href="products"
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
@@ -641,7 +641,7 @@ export default () => {
             </Text>
           </Box>
           <Link
-            href="#"
+            href="#3Dvisual"
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
@@ -716,7 +716,7 @@ export default () => {
           </Override>
           <Override slot="Tab one">Возможности</Override>
           <Components.Tab tabId="one">
-            <Override slot="Tab two">Animation</Override>
+            <Override slot="Tab two">Юзер-Френдли</Override>
             <Image
               src="https://images.unsplash.com/photo-1590402494587-44b71d7772f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
               max-width="100%"
@@ -889,7 +889,7 @@ export default () => {
             </Text>
           </Box>
           <Link
-            href="#"
+            href="pricing"
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
@@ -998,7 +998,7 @@ export default () => {
             </Box>
           </Box>
           <Link
-            href="#"
+            href="pricing"
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
@@ -1196,11 +1196,11 @@ export default () => {
             />
             <Override
               slot="Slide Image 2"
-              src="https://drive.google.com/uc?export=view&id=13XqVXV2sW9PCmqCVWlrst5J8NrJUT2Mn"
+              src="https://drive.google.com/uc?export=view&id=1HYRrvxiSNYKbLWfdmj4ORv_qwiwCqrS2"
             />
             <Override
               slot="Slide Image 3"
-              src="https://drive.google.com/uc?export=view&id=1S_ia2wn0mwh6UBhMX4WbnKJFfjAg-8pL"
+              src="https://drive.google.com/uc?export=view&id=13XqVXV2sW9PCmqCVWlrst5J8NrJUT2Mn"
             />
             <Override
               slot="Arrow"
@@ -1220,7 +1220,7 @@ export default () => {
             <Override slot="Slide Image" md-height="auto" md-width="70%" />
             <Override
               slot="Slide Image 4"
-              src="https://drive.google.com/uc?export=view&id=1wwnvP48v6JwFkHuXIUFob7xg1FQc_ETs"
+              src="https://drive.google.com/uc?export=view&id=14Y2bcKyT2hzvyq_u0goka_UeMLJhRjZL"
             />
             <Override
               slot="Slide Image 5"
@@ -1353,10 +1353,17 @@ export default () => {
             text-decoration-line="initial"
             color="--light"
             font="--lead"
-            margin="0px 0px 32px 0px"
+            margin="0px 0px 5px 0px"
           >
             diomedialc@gmail.com
-            <br />
+          </Link>
+          <Link
+            href="mailto:info@b2bpltfrm.com"
+            text-decoration-line="initial"
+            color="--light"
+            font="--lead"
+            margin="0px 0px 32px 0px"
+          >
             rerpledday@gmail.com
           </Link>
           <Text
@@ -1372,7 +1379,7 @@ export default () => {
 			margin="0px 0px 0px 0px"
 			justify-content="flex-start"
 			facebook="https://www.facebook.com/diomedialc"
-			github="https://github.com/soul-on-you/2bASU_Angel_Twinc_Pleasure_Club-"
+			github="https://github.com/soul-on-you/diomedialc"
 			telegram="https://t.me/diomedialc"
 		>
 			<Override
@@ -1542,7 +1549,6 @@ export default () => {
         </style>
       </RawHtml>
 	  <BackToTop/>
-    {/* <Sugar/> */}
     </Theme>
   );
 };

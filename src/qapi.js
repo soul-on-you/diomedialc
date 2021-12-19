@@ -9,7 +9,8 @@ export default {
 				"61b732d81805d0001e1dae75",
 				"61bc2224526954001ed06488",
 				"61be0300eb532f001e06a6ce",
-				"61be50e3f6137a001eb322d5"
+				"61be50e3f6137a001eb322d5",
+				"61bf34e2f6137a001eb3268c"
 			]
 		},
 		"61b732d81805d0001e1dae71": {
@@ -35,6 +36,11 @@ export default {
 		"61be50e3f6137a001eb322d5": {
 			"id": "61be50e3f6137a001eb322d5",
 			"pageUrl": "products",
+			"name": "Products"
+		},
+		"61bf34e2f6137a001eb3268c": {
+			"id": "61bf34e2f6137a001eb3268c",
+			"pageUrl": "solutions",
 			"name": "Solutions"
 		}
 	},
@@ -46,14 +52,14 @@ export default {
 			"overflow-y": ""
 		},
 		"seo": {
-			"title": "Business Matchmaking Has Never Been Easier",
-			"description": "Manage all your events in a single app. Our online event management platform provides various services event planners and project managers may need.",
-			"og:image": "https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/OG-image.png?v=2021-09-22T11:33:13.239Z",
-			"og:title": "Business Matchmaking Has Never Been Easier",
-			"og:description": "Manage all your events in a single app. Our online event management platform provides various services event planners and project managers may need.",
-			"favicon_32px": "https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/favicon%2032x32.png?v=2021-09-22T11:33:41.498Z",
-			"favicon_apple_152px": "https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/152x152.png?v=2021-09-22T11:33:48.679Z",
-			"favicon_win10_270px": "https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/270x270.png?v=2021-09-22T11:33:55.934Z"
+			"title": "DiomedialCNet",
+			"description": "AI modulating crash tests.",
+			"og:image": "https://drive.google.com/uc?export=view&id=1IChZAXxEos1vlfuldA-5k9yQ3WA0DXAL",
+			"og:title": "DiomedialCNet",
+			"og:description": "DiomedialCNet",
+			"favicon_32px": "https://drive.google.com/uc?export=view&id=1VHtqP4YjNXDz5u1eU6e3bR2RcrFDtpct",
+			"favicon_apple_152px": "https://drive.google.com/uc?export=view&id=1zSp6ZWzVEF6qD3vOimFAGTTEW7Ecx59m",
+			"favicon_win10_270px": "https://drive.google.com/uc?export=view&id=1Inyz3iuOZrAh2FPexjfDupOJ1ajXqQTE"
 		}
 	}
 }

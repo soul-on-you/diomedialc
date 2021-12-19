@@ -22,6 +22,10 @@ const pageStyles = {
     "products": {
         "overflow-x": "hidden",
         "overflow-y": ""
+    },
+    "solutions": {
+        "overflow-x": "hidden",
+        "overflow-y": ""
     }
 };
 

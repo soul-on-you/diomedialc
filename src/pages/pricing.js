@@ -134,7 +134,7 @@ export default (() => {
 						</Text>
 						<List margin="0px 0px 20px 0px" padding="0px 0px 0px 0px" list-style-type="disc" as="ul">
 							<Text margin="0px 0px 4px 0px" color="--darkL2" font="--base">
-								Мощный сервер на базе indel xeon gold 6185 и rtx 3080
+								Мощный сервер на базе Intel Xeon Gold 6185 и RTX 3080
 							</Text>
 							<Text margin="0px 0px 4px 0px" color="--darkL2" font="--base">
 								Возможность создавать до 3 моделяций в день
@@ -168,7 +168,7 @@ export default (() => {
 							hover-transition="background-color 0.2s ease-in-out 0s"
 							hover-background="--color-orange"
 						>
-							buy now $ 399
+							Buy now $ 399
 						</Link>
 					</Box>
 				</Box>
@@ -199,7 +199,7 @@ export default (() => {
 						bottom="auto"
 						left="auto"
 					>
-						Recomended
+						Рекомендуемое
 					</Text>
 					<Image
 						src="https://drive.google.com/uc?export=view&id=1wtS8Jgs1yF2c3aISE4ZlfjurA68YyD2j"
@@ -223,7 +223,7 @@ export default (() => {
 						</Text>
 						<List margin="0px 0px 20px 0px" padding="0px 0px 0px 0px" list-style-type="disc" as="ul">
 							<Text margin="0px 0px 4px 0px" color="--darkL2" font="--base">
-								Мощный сервер на базе indel xeon platinum 8225 и rtx A6000
+								Мощный сервер на базе Intel Xeon Platinum 8225 и RTX A6000
 							</Text>
 							<Text margin="0px 0px 4px 0px" color="--darkL2" font="--base">
 								Без ограничений на моделяции
@@ -257,7 +257,7 @@ export default (() => {
 							hover-transition="background-color 0.2s ease-in-out 0s"
 							hover-background="--color-orange"
 						>
-							buy now $ 899
+							Buy now $ 899
 						</Link>
 					</Box>
 				</Box>
