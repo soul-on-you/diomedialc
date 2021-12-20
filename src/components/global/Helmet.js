@@ -10,46 +10,46 @@ export default () => {
       <meta
         property={"og:image"}
         content={
-          "https://drive.google.com/uc?export=view&id=1IChZAXxEos1vlfuldA-5k9yQ3WA0DXAL"
+          "/DiomedialCNet/icons/logo1920x1080.jpg"
         }
       />
       <link
         rel={"shortcut icon"}
         href={
-          "https://drive.google.com/uc?export=view&id=1VHtqP4YjNXDz5u1eU6e3bR2RcrFDtpct"
+          "/DiomedialCNet/icons/logo32x32.ico"
         }
         type={"image/x-icon"}
       />
       <link
         rel={"apple-touch-icon"}
         href={
-          "https://drive.google.com/uc?export=view&id=1zSp6ZWzVEF6qD3vOimFAGTTEW7Ecx59m"
+          "/DiomedialCNet/icons/logo152x152.ico"
         }
       />
       <link
         rel={"apple-touch-icon"}
         sizes={"76x76"}
         href={
-          "https://drive.google.com/uc?export=view&id=1zSp6ZWzVEF6qD3vOimFAGTTEW7Ecx59m"
+          "/DiomedialCNet/icons/logo152x152.ico"
         }
       />
       <link
         rel={"apple-touch-icon"}
         sizes={"152x152"}
         href={
-          "https://drive.google.com/uc?export=view&id=1zSp6ZWzVEF6qD3vOimFAGTTEW7Ecx59m"
+          "/DiomedialCNet/icons/logo152x152.ico"
         }
       />
       <link
         rel={"apple-touch-startup-image"}
         href={
-          "https://drive.google.com/uc?export=view&id=1zSp6ZWzVEF6qD3vOimFAGTTEW7Ecx59m"
+          "/DiomedialCNet/icons/logo152x152.ico"
         }
       />
       <meta
         name={"msapplication-TileImage"}
         content={
-          "https://drive.google.com/uc?export=view&id=1Inyz3iuOZrAh2FPexjfDupOJ1ajXqQTE"
+          "/DiomedialCNet/icons/logo256x256.ico"
         }
       />
     </Helmet>

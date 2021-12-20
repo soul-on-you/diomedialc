@@ -21,13 +21,13 @@ export default () => {
           sm-width="100%"
         >
           <Text margin="0px 0px 5px 0px" color="#949494">
-            Проект команды группы 2бАСУ3 по Веб-Приложениям
+            Проект команды группы 2бАСУ3(Автоматизированные Системы Управления) по Веб-Приложениям
           </Text>
           <Text margin="0px 0px 5px 0px" color="#949494">
             125319, Россия, Москва, Ленинградский проспект, 64
           </Text>
           <Link
-            href="tel:12345678"
+            href="tel:+79859391998"
             text-decoration-line="initial"
             color="--light"
             font="--lead"
@@ -52,7 +52,7 @@ export default () => {
             Email для связи
           </Text>
           <Link
-            href="mailto:info@b2bpltfrm.com"
+            href="mailto:diomedialc@gmail.com"
             text-decoration-line="initial"
             color="#949494"
             font="--lead"
@@ -61,7 +61,7 @@ export default () => {
             diomedialc@gmail.com
           </Link>
           <Link
-            href="mailto:info@b2bpltfrm.com"
+            href="mailto:rerpledday@gmail.com"
             text-decoration-line="initial"
             color="#949494"
             font="--lead"

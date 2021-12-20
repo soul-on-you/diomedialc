@@ -17,7 +17,7 @@ export default (() => {
 				padding="64px 0 30px 0"
 				margin="0px 0 0px 0"
 				sm-padding="40px 0"
-				imageURL="https://drive.google.com/uc?export=view&id=1T0niHr6N-wVUFwE5b_EIKQ7ukI0CisuX"
+				imageURL="/DiomedialCNet/etc/team.png"
 				imageRepeat="no-repeat"
 				scrollSpeedProp="0.1"
 			>
@@ -88,7 +88,7 @@ export default (() => {
 						border-radius="16px"
 					>
 						<Image
-							src="https://drive.google.com/uc?export=view&id=14KIZdYKh4Q5y7p33_9lse4U9mK1F9jHC"
+							src="/DiomedialCNet/avatars/danila.png"
 							border-radius="16px"
 							width="100%"
 							object-fit="cover"
@@ -166,7 +166,7 @@ export default (() => {
 						border-radius="16px"
 					>
 						<Image
-							src="https://drive.google.com/uc?export=view&id=1A0JWz0gVkMloffn_txh4P9lg1QXt3Bby"
+							src="/DiomedialCNet/avatars/fedor.png"
 							border-radius="16px"
 							width="100%"
 							object-fit="cover"
@@ -245,7 +245,7 @@ export default (() => {
 						border-radius="16px"
 					>
 						<Image
-							src="https://drive.google.com/uc?export=view&id=1xyFrUbPTQZ66KuBhFn_StJqmYPUuqCqg"
+							src="/DiomedialCNet/avatars/kirill.png"
 							border-radius="16px"
 							width="100%"
 							object-fit="cover"
@@ -314,12 +314,12 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<BackToTop/>
 		<GlobalComponents.Footer/>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6143a05129a0a1001e6c835a"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}\n\n* {\n    scroll-behavior: smooth;\n    }"}
 			</style>
 		</RawHtml>
+		<BackToTop className="backToTopBtn"/>
 	</Theme>;
 });

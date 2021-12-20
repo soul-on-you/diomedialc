@@ -26,6 +26,10 @@ const pageStyles = {
     "solutions": {
         "overflow-x": "hidden",
         "overflow-y": ""
+    },
+    "visual": {
+        "overflow-x": "hidden",
+        "overflow-y": ""
     }
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import theme from "theme";
 import { Theme, Link, Image, Text, Section, Box, Span, Input, Button, Icon, } from "@quarkly/widgets";
-// import { Sugar } from 'react-preloaders'; //<Sugar/>
+import { Sugar } from 'react-preloaders2'; 
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, SocialMedia, Formspree } from "@quarkly/components";
 import {
@@ -80,7 +80,7 @@ export default () => {
             <Override
               slot="Button Open"
               color="--light"
-              background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right.svg?v=2021-09-16T22:08:39.193Z) 100% -5px/contain no-repeat"
+              background="url(/DiomedialCNet/arrows/keyboard_arrow_right.svg) 100% -5px/contain no-repeat"
               height="40px"
               transition="opacity 0.3s ease-in-out 0s"
               hover-opacity="0.8"
@@ -114,7 +114,7 @@ export default () => {
           md-width="100%"
         >
           <Image
-            src="https://drive.google.com/uc?export=view&id=1i6u08ysdjqR2ox1eHPgBTGxaQAKbxKjq"
+            src="/DiomedialCNet/etc/ctesla1.jpg"
             max-width="100%"
             min-height="600px"
             object-fit="cover"
@@ -375,7 +375,7 @@ export default () => {
               text-decoration-line="initial"
               color="--primary"
               padding="5px 35px 5px 0px"
-              background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
+              background="url(/DiomedialCNet/arrows/keyboard_arrow_right_blue.svg) 100% -5px/contain no-repeat"
               font="--lead"
             >
               Узнать больше
@@ -416,7 +416,7 @@ export default () => {
               text-decoration-line="initial"
               color="--primary"
               padding="5px 35px 5px 0px"
-              background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
+              background="url(/DiomedialCNet/arrows/keyboard_arrow_right_blue.svg) 100% -5px/contain no-repeat"
               font="--lead"
             >
               Узнать больше
@@ -515,7 +515,7 @@ export default () => {
               md-width="100%"
             >
               <Image
-                src="https://drive.google.com/uc?export=view&id=1lxQ2vHV6WStWDAHcDpPAN1OHZX45ZwF6"
+                src="/DiomedialCNet/etc/productscase1.jpg"
                 display="block"
                 max-width="100%"
                 height="300px"
@@ -562,7 +562,7 @@ export default () => {
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_blue.svg) 100% -5px/contain no-repeat"
             font="--lead"
           >
             Узнать больше
@@ -603,7 +603,7 @@ export default () => {
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_blue.svg) 100% -5px/contain no-repeat"
             font="--lead"
           >
             Узнать больше
@@ -641,11 +641,11 @@ export default () => {
             </Text>
           </Box>
           <Link
-            href="#3Dvisual"
+            href="visual"
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_blue.svg) 100% -5px/contain no-repeat"
             font="--lead"
           >
             Запустить демо
@@ -893,7 +893,7 @@ export default () => {
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_blue.svg) 100% -5px/contain no-repeat"
             font="--lead"
           >
             From $399
@@ -916,7 +916,7 @@ export default () => {
           // md-overflow-x="hidden"
         >
           <Image
-            src="https://drive.google.com/uc?export=view&id=1LW48G_6dO2W-q4n6-ZxyvUayThvdLb1n"
+            src="/DiomedialCNet/etc/VectaryTexture.png"
             position="absolute"
             right="88px"
             bottom="18px"
@@ -1002,7 +1002,7 @@ export default () => {
             text-decoration-line="initial"
             color="--primary"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_blue.svg?v=2021-09-16T22:45:08.539Z) 100% -5px/contain no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_blue.svg) 100% -5px/contain no-repeat"
             font="--lead"
           >
             From $899
@@ -1085,7 +1085,7 @@ export default () => {
             text-decoration-line="initial"
             color="--light"
             padding="5px 85px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right.svg?v=2021-09-16T22:08:39.193Z) 100% -12px/51px no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right.svg) 100% -12px/51px no-repeat"
             font="--headline3"
             sm-padding="5px 55px 5px 0px"
             sm-font='400 30px/1.2 "Fira Sans", sans-serif'
@@ -1192,15 +1192,15 @@ export default () => {
           >
             <Override
               slot="Slide Image 1"
-              src="https://drive.google.com/uc?export=view&id=1w2AgEOsQTlBfS4zOv088UGdxep0sC5CK"
+              src="/DiomedialCNet/logos/logo-lexus.png"
             />
             <Override
               slot="Slide Image 2"
-              src="https://drive.google.com/uc?export=view&id=1HYRrvxiSNYKbLWfdmj4ORv_qwiwCqrS2"
+              src="/DiomedialCNet/logos/kawasaki-team-racing-vector-logo.png"
             />
             <Override
               slot="Slide Image 3"
-              src="https://drive.google.com/uc?export=view&id=13XqVXV2sW9PCmqCVWlrst5J8NrJUT2Mn"
+              src="/DiomedialCNet/logos/logo-ford.png"
             />
             <Override
               slot="Arrow"
@@ -1220,11 +1220,11 @@ export default () => {
             <Override slot="Slide Image" md-height="auto" md-width="70%" />
             <Override
               slot="Slide Image 4"
-              src="https://drive.google.com/uc?export=view&id=14Y2bcKyT2hzvyq_u0goka_UeMLJhRjZL"
+              src="/DiomedialCNet/logos/nascar-auto-vector-logo.png"
             />
             <Override
               slot="Slide Image 5"
-              src="https://drive.google.com/uc?export=view&id=1c0KWd_7kq1dGSw6cBohmI6iI37RjLIRA"
+              src="/DiomedialCNet/logos/logo-tesla.png"
             />
             <Override slot="Arrow Prev" background="none" />
             <Override slot="Arrow Next" background="none" />
@@ -1302,7 +1302,7 @@ export default () => {
                   icon="MdKeyboardArrowRight"
                   color="--dark"
                 />
-                Button
+                Подтвердить
               </Button>
             </Box>
           </NetlifyForm>
@@ -1340,7 +1340,7 @@ export default () => {
             125319, Россия, Москва, Ленинградский проспект, 64
           </Text>
           <Link
-            href="tel:12345678"
+            href="tel:+79859391998"
             text-decoration-line="initial"
             color="--light"
             font="--lead"
@@ -1349,7 +1349,7 @@ export default () => {
             +7 (985) 939-1998
           </Link>
           <Link
-            href="mailto:info@b2bpltfrm.com"
+            href="mailto:diomedialc@gmail.com"
             text-decoration-line="initial"
             color="--light"
             font="--lead"
@@ -1358,7 +1358,7 @@ export default () => {
             diomedialc@gmail.com
           </Link>
           <Link
-            href="mailto:info@b2bpltfrm.com"
+            href="mailto:rerpledday@gmail.com"
             text-decoration-line="initial"
             color="--light"
             font="--lead"
@@ -1429,7 +1429,7 @@ export default () => {
             text-decoration-line="initial"
             color="--dark"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_black.svg?v=2021-09-18T00:53:14.815Z) 100% 0px/30px no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_black.svg) 100% 0px/30px no-repeat"
             font="--headline4"
             margin="0px 0px 27px 0px"
           >
@@ -1440,7 +1440,7 @@ export default () => {
             text-decoration-line="initial"
             color="--dark"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_black.svg?v=2021-09-18T00:53:14.815Z) 100% 0px/30px no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_black.svg) 100% 0px/30px no-repeat"
             font="--headline4"
             margin="0px 0px 27px 0px"
           >
@@ -1451,7 +1451,7 @@ export default () => {
             text-decoration-line="initial"
             color="--dark"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_black.svg?v=2021-09-18T00:53:14.815Z) 100% 0px/30px no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_black.svg) 100% 0px/30px no-repeat"
             font="--headline4"
             margin="0px 0px 27px 0px"
           >
@@ -1462,7 +1462,7 @@ export default () => {
             text-decoration-line="initial"
             color="--dark"
             padding="5px 35px 5px 0px"
-            background="url(https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/keyboard_arrow_right_black.svg?v=2021-09-18T00:53:14.815Z) 100% 0px/30px no-repeat"
+            background="url(/DiomedialCNet/arrows/keyboard_arrow_right_black.svg) 100% 0px/30px no-repeat"
             font="--headline4"
             margin="0px 0px 27px 0px"
             lg-margin="0px 0px 0px 0px"
@@ -1548,7 +1548,7 @@ export default () => {
           }
         </style>
       </RawHtml>
-	  <BackToTop/>
+	    <BackToTop className="backToTopBtn"/>
     </Theme>
   );
 };
