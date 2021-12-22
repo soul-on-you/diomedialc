@@ -2,18 +2,21 @@ import React from "react";
 import theme from "theme";
 import { Theme, Text, Section, Box, Span } from "@quarkly/widgets";
 import { BackToTop } from "@quarkly/community-kit";
-import { GlobalQuarklyPageStyles } from "global-page-styles";
+import { GlobalPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import { Sugar } from 'react-preloaders2';
-import * as GlobalComponents from "components/global";
+// import * as GlobalComponents from "components/global";
+import { ScrollToTop } from "components/global"
+import { HeaderMobileSidePanel } from "components/global"
 export default () => {
   return (
     <>
-      <Sugar />
       <Theme theme={theme}>
-        <GlobalQuarklyPageStyles pageUrl={"404"} />
-        <GlobalComponents.Helmet />
-        <GlobalComponents.HeaderMobileSidePanel />
+        <GlobalPageStyles pageUrl={"404"} />
+        {/* <GlobalComponents.Helmet />
+        <GlobalComponents.HeaderMobileSidePanel /> */}
+        <ScrollToTop />
+        <HeaderMobileSidePanel/>
         <Section padding="0px 0 0px 0">
           <Override
             slot="SectionContent"
@@ -88,7 +91,7 @@ export default () => {
             </Text>
           </Box>
         </Section>
-        <GlobalComponents.Footer />
+        {/* <GlobalComponents.Footer /> */}
         <RawHtml>
           <style place={"endOfHead"} rawKey={"6143a05129a0a1001e6c835a"}>
             {
@@ -96,8 +99,9 @@ export default () => {
             }
           </style>
         </RawHtml>
-		<BackToTop className="backToTopBtn"/>
+		    <BackToTop className="backToTopBtn"/>
       </Theme>
+      <Sugar />
     </>
   );
 };

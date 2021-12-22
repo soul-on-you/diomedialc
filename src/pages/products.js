@@ -1,16 +1,20 @@
 import React from "react";
 import theme from "theme";
 import { Theme, Image, Text, Box, Section } from "@quarkly/widgets";
-import { GlobalQuarklyPageStyles } from "global-page-styles";
-import * as GlobalComponents from "components/global";
+import { GlobalPageStyles } from "global-page-styles";
+// import * as GlobalComponents from "components/global";
 import { RawHtml, Override } from "@quarkly/components";
 import { BackToTop } from "@quarkly/community-kit";
+import { ScrollToTop } from "components/global"
+import { HeaderMobileSidePanel } from "components/global"
 export default () => {
   return (
       <Theme theme={theme}>
-        <GlobalQuarklyPageStyles pageUrl={"products"} />
-        <GlobalComponents.Helmet />
-        <GlobalComponents.HeaderMobileSidePanel />
+        <GlobalPageStyles pageUrl={"products"} />
+        {/* <GlobalComponents.Helmet />
+        <GlobalComponents.HeaderMobileSidePanel /> */}
+        <ScrollToTop />
+        <HeaderMobileSidePanel/>
         <Section
           padding="80px 0 80px 0"
           sm-padding="60px 0 60px 0"
@@ -35,7 +39,7 @@ export default () => {
           >
             <Image
               max-width="340px"
-              src="/DiomedialCNet/etc/david-groombridge.jpg"
+              src="/DiomedialCNet/etc/david-groombridge.webp"
               md-margin="0px 0px 20px 0px"
             />
             <Text
@@ -113,7 +117,7 @@ export default () => {
               поддерживаемые нашей компанией.
             </Text>
             <Image
-              src="/DiomedialCNet/techpage/ai.png"
+              src="/DiomedialCNet/techpage/ai.webp"
               display="block"
             />
           </Box>
@@ -232,7 +236,7 @@ export default () => {
             lg-flex-direction="row-reverse"
           >
             <Image
-              src="/DiomedialCNet/techpage/dataFabric.jpg"
+              src="/DiomedialCNet/techpage/dataFabric.webp"
               display="block"
               width="100%"
               heigth="100%"
@@ -264,7 +268,7 @@ export default () => {
             sm-margin="0 0 10px 0"
           >
             <Image
-              src="/DiomedialCNet/techpage/cloudNativePlatform.jpg"
+              src="/DiomedialCNet/techpage/cloudNativePlatform.webp"
               display="block"
             />
           </Box>
@@ -378,7 +382,7 @@ export default () => {
             lg-flex-direction="row-reverse"
           >
             <Image
-              src="/DiomedialCNet/techpage/DI.png"
+              src="/DiomedialCNet/techpage/DI.webp"
               display="block"
               width="100%"
               heigth="100%"
@@ -410,7 +414,7 @@ export default () => {
             sm-margin="0 0 10px 0"
           >
             <Image
-              src="/DiomedialCNet/techpage/Hyper-automation.png"
+              src="/DiomedialCNet/techpage/Hyper-automation.webp"
               display="block"
             />
           </Box>
@@ -454,8 +458,7 @@ export default () => {
             </Text>
           </Box>
         </Section>
-        <GlobalComponents.Footer />
-
+        {/* <GlobalComponents.Footer /> */}
         <RawHtml>
           <style place={"endOfHead"} rawKey={"6143a05129a0a1001e6c835a"}>
             {
@@ -463,7 +466,7 @@ export default () => {
             }
           </style>
         </RawHtml>
-		<BackToTop className="backToTopBtn"/>
+		    <BackToTop className="backToTopBtn"/>
       </Theme>
   );
 };

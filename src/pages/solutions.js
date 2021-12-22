@@ -1,16 +1,20 @@
 import React from "react";
 import theme from "theme";
 import { Theme, Text, Box, Image, Section } from "@quarkly/widgets";
-import { GlobalQuarklyPageStyles } from "global-page-styles";
+import { GlobalPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
-import * as GlobalComponents from "components/global";
+// import * as GlobalComponents from "components/global";
 import { BackToTop } from "@quarkly/community-kit";
+import { HeaderMobileSidePanel } from "components/global"
+import { ScrollToTop } from "components/global"
 export default () => {
   return (
       <Theme theme={theme}>
-        <GlobalQuarklyPageStyles pageUrl={"solutions"} />
-        <GlobalComponents.Helmet />
-        <GlobalComponents.HeaderMobileSidePanel />
+        <ScrollToTop />
+        <GlobalPageStyles pageUrl={"solutions"} />
+        {/* <GlobalComponents.Helmet />
+        <GlobalComponents.HeaderMobileSidePanel /> */}
+        <HeaderMobileSidePanel/>
         <Section
           padding="80px 0 80px 0"
           sm-padding="60px 0 60px 0"
@@ -95,7 +99,7 @@ export default () => {
             sm-grid-template-columns="1fr"
           >
             <Image
-              src="/DiomedialCNet/analitics/modeling3.png"
+              src="/DiomedialCNet/analitics/modeling3.webp"
               object-fit="cover"
               width="100%"
               height="100%"
@@ -103,7 +107,7 @@ export default () => {
               border-radius="24px"
             />
             <Image
-              src="/DiomedialCNet/analitics/modeling.jpg"
+              src="/DiomedialCNet/analitics/modeling.webp"
               object-fit="cover"
               width="100%"
               height="100%"
@@ -135,7 +139,7 @@ export default () => {
             md-margin="0 0 10px 0"
             lg-justify-content="center"
           >
-            <Image src="/DiomedialCNet/analitics/2.jpg" display="block" />
+            <Image src="/DiomedialCNet/analitics/2.webp" display="block" />
           </Box>
           <Box
             width="50%"
@@ -208,7 +212,7 @@ export default () => {
             >
               Плюсы внедрения
             </Text>
-            <Image src="/DiomedialCNet/analitics/5.jpg" display="block" />
+            <Image src="/DiomedialCNet/analitics/5.webp" display="block" />
           </Box>
           <Box
             width="50%"
@@ -266,7 +270,7 @@ export default () => {
             lg-justify-content="center"
             md-margin="0 0 10px 0"
           >
-            <Image src="/DiomedialCNet/analitics/6.jpg" display="block" />
+            <Image src="/DiomedialCNet/analitics/6.webp" display="block" />
           </Box>
           <Box
             width="50%"
@@ -308,7 +312,7 @@ export default () => {
             </Text>
           </Box>
         </Section>
-        <GlobalComponents.Footer />
+        {/* <GlobalComponents.Footer /> */}
         <RawHtml>
           <style place={"endOfHead"} rawKey={"6143a05129a0a1001e6c835a"}>
             {
@@ -316,7 +320,7 @@ export default () => {
             }
           </style>
         </RawHtml>
-		<BackToTop className="backToTopBtn"/>
+	    	<BackToTop className="backToTopBtn"/>
       </Theme>
   );
 };

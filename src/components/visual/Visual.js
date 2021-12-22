@@ -1,12 +1,13 @@
-import React, { Suspense } from "react";
+import React, { lazy, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-// import { OrbitControls, Stars } from "drei";
-import { OrbitControls, Stars } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei"; //, Stars
 // import { Section, Box } from "@quarkly/widgets";
-import Model from "../../models/Car";
+// import Model from "../../models/Car";
 // import Car from "../../models/Car2"
 // import Derbi from "../../models/Derbi"
-import { Sugar } from "react-preloaders2";
+// const Model = lazy(() => import("../../models/Car"));
+// const Model = lazy(() => import("../../models/Car"));
+const Model = lazy(() => import("../../models/Car"));
 
 // function Plane() {
 //   return (
@@ -19,21 +20,16 @@ import { Sugar } from "react-preloaders2";
 
 export default () => {
   return (
-    <Suspense fallback={<Sugar />}>
-      <Canvas camera={{ position: [70, 200, 50], zoom: 1 }}>
-        <color attach="background" args={["grey"]} />
-        <OrbitControls />
-        {/* <Stars /> */}
-        <ambientLight intensity={0.5} />
-        <spotLight
-          position={[70, 200, 50]}
-          angle={0.3}
-          penumbra={1}
-          castShadow
-        />
+    <Canvas camera={{ position: [70, 200, 50], zoom: 1 }}>
+      <color attach="background" args={["grey"]} />
+      <OrbitControls />
+      {/* <Stars /> */}
+      <ambientLight intensity={0.5} />
+      <spotLight position={[70, 200, 50]} angle={0.3} penumbra={1} castShadow />
+      <Suspense fallback={null}>
         <Model />
         {/* <Plane /> */}
-      </Canvas>
-    </Suspense>
+      </Suspense>
+    </Canvas>
   );
 };

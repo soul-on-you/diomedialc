@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://competent-cray-b4539c.netlify.app/sitemap-index.xml
+Sitemap: https://expansion1000.space/sitemap-index.xml

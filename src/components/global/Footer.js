@@ -29,7 +29,6 @@ export default () => {
           <Link
             href="tel:+79859391998"
             text-decoration-line="initial"
-            color="--light"
             font="--lead"
             margin="0px 0px 0px 0px"
             color="#949494"

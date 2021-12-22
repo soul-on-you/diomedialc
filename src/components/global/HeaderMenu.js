@@ -12,7 +12,7 @@ const overrides = {
 		"kind": "Image",
 		"props": {
 			"width": "154px",
-			"src": "https://uploads.quarkly.io/5f44d57c7f10ba001eace3a0/images/logo-on-dark.svg?v=2020-10-24T12:38:11.194Z",
+			"src": "/DiomedialCNet/dioLogo/logo.webp",
 			"margin": "0px 24px 0px 0px"
 		}
 	},

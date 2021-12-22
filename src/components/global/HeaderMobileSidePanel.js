@@ -24,7 +24,7 @@ export default () => {
     >
       <Override slot="SectionContent" flex-direction="row" display="flex" />
       <Image
-        src="/DiomedialCNet/dioLogo/logo.png"
+        src="/DiomedialCNet/dioLogo/logo.webp"
         display="block"
         object-fit="contain"
       />

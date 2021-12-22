@@ -1,8 +1,8 @@
 import React from "react";
 import theme from "theme";
 import { Theme, Link, Image, Text, Section, Box, Span, Input, Button, Icon, } from "@quarkly/widgets";
-import { Sugar } from 'react-preloaders2'; 
-import { GlobalQuarklyPageStyles } from "global-page-styles";
+// import { Sugar } from 'react-preloaders2'; 
+import { GlobalPageStyles } from "global-page-styles";
 import { RawHtml, Override, SocialMedia, Formspree } from "@quarkly/components";
 import {
 	Carousel,
@@ -12,13 +12,17 @@ import {
 	BackToTop
   } from "@quarkly/community-kit";
 import * as Components from "components/main";
-import * as GlobalComponents from "components/global"
+// import * as GlobalComponents from "components/global"
+import { HeaderMobileSidePanel } from "components/global"
+import { ScrollToTop } from "components/global"
 export default () => {
 	return (
 		<Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"index"} />
-		<GlobalComponents.Helmet/>
-		<GlobalComponents.HeaderMobileSidePanel/>
+    <ScrollToTop />
+		<GlobalPageStyles pageUrl={"index"} />
+		{/* <GlobalComponents.Helmet/>
+		<GlobalComponents.HeaderMobileSidePanel/> */}
+    <HeaderMobileSidePanel/>
 		<Section
         background="--color-darkL1"
         padding="0px 0 0px 0"
@@ -114,7 +118,7 @@ export default () => {
           md-width="100%"
         >
           <Image
-            src="/DiomedialCNet/etc/ctesla1.jpg"
+            src="/DiomedialCNet/etc/ctesla1.webp"
             max-width="100%"
             min-height="600px"
             object-fit="cover"
@@ -515,7 +519,7 @@ export default () => {
               md-width="100%"
             >
               <Image
-                src="/DiomedialCNet/etc/productscase1.jpg"
+                src="/DiomedialCNet/etc/productscase1.webp"
                 display="block"
                 max-width="100%"
                 height="300px"
@@ -916,7 +920,7 @@ export default () => {
           // md-overflow-x="hidden"
         >
           <Image
-            src="/DiomedialCNet/etc/VectaryTexture.png"
+            src="/DiomedialCNet/etc/VectaryTexture.webp"
             position="absolute"
             right="88px"
             bottom="18px"
@@ -1192,15 +1196,15 @@ export default () => {
           >
             <Override
               slot="Slide Image 1"
-              src="/DiomedialCNet/logos/logo-lexus.png"
+              src="/DiomedialCNet/logos/logo-lexus.webp"
             />
             <Override
               slot="Slide Image 2"
-              src="/DiomedialCNet/logos/kawasaki-team-racing-vector-logo.png"
+              src="/DiomedialCNet/logos/kawasaki-team-racing-vector-logo.webp"
             />
             <Override
               slot="Slide Image 3"
-              src="/DiomedialCNet/logos/logo-ford.png"
+              src="/DiomedialCNet/logos/logo-ford.webp"
             />
             <Override
               slot="Arrow"
@@ -1220,11 +1224,11 @@ export default () => {
             <Override slot="Slide Image" md-height="auto" md-width="70%" />
             <Override
               slot="Slide Image 4"
-              src="/DiomedialCNet/logos/nascar-auto-vector-logo.png"
+              src="/DiomedialCNet/logos/nascar-auto-vector-logo.webp"
             />
             <Override
               slot="Slide Image 5"
-              src="/DiomedialCNet/logos/logo-tesla.png"
+              src="/DiomedialCNet/logos/logo-tesla.webp"
             />
             <Override slot="Arrow Prev" background="none" />
             <Override slot="Arrow Next" background="none" />
@@ -1540,7 +1544,7 @@ export default () => {
           </Box>
         </Box>
       </Section>
-      <GlobalComponents.Footer/>
+      {/* <GlobalComponents.Footer/> */}
       <RawHtml>
         <style place={"endOfHead"} rawKey={"6143a05129a0a1001e6c835a"}>
           {

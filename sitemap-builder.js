@@ -33,6 +33,6 @@ class UniqueSitemap extends Sitemap {
 
 (
     new UniqueSitemap(router())
-        .build('https://competent-cray-b4539c.netlify.app')
+        .build('https://expansion1000.space')
         .save('./public/sitemap-index.xml')
 );

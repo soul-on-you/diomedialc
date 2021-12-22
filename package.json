@@ -1,5 +1,5 @@
 {
-    "name": "diomedialCnet",
+    "name": "diomedialc.net",
     "dependencies": {
         "@quarkly/atomize": "1.0.20",
         "@quarkly/community-kit": "0.0.53",
@@ -12,6 +12,7 @@
         "@testing-library/react": "^9.3.2",
         "@testing-library/user-event": "^7.1.2",
         "react": "^17.0.2",
+        "react-back-to-top-button": "^0.0.14",
         "react-devtools": "^4.22.1",
         "react-dom": "^17.0.2",
         "react-helmet": "latest",
@@ -29,6 +30,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "npm run sitemap && CI=false react-scripts build",
+        "protect-build": "npm run sitemap && set \"GENERATE_SOURCEMAP=false\" && CI=false react-scripts build",
         "build:ci": "cross-env CI=false npm run build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
@@ -48,10 +50,6 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "quarklyMeta": {
-        "projectUid": "61b732d81805d0001e1dae35",
-        "type": "create-react-app"
     },
     "devDependencies": {
         "@babel/core": "^7.14.3",

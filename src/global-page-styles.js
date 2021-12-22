@@ -41,4 +41,4 @@ const PageStyles = createGlobalStyle`
             )}
     }
 `;
-export const GlobalQuarklyPageStyles = ({ pageUrl }) => <PageStyles styles={pageStyles[pageUrl]} />
+export const GlobalPageStyles = ({ pageUrl }) => <PageStyles styles={pageStyles[pageUrl]} />
